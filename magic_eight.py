@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 question = str(input("What is your question?"))
+<<<<<<< HEAD
 
 import random
 answer_list = ["It is certain","It is decidedly so", "Without a doubt",
@@ -11,3 +12,12 @@ answer_list = ["It is certain","It is decidedly so", "Without a doubt",
 				"Very doubtful"]
 random_number = randrange(0, 20)
 answer = answer_list([random_number])
+=======
+while again:
+	if question.endswith("?"):
+		print(answers_list[answers])
+	elif question == "quit":
+		again = False
+	else:
+		print("I'm sorry, I can only answer questions.")
+>>>>>>> check_question
