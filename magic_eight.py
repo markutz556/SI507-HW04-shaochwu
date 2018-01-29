@@ -9,7 +9,7 @@ answer_list = ["It is certain","It is decidedly so", "Without a doubt",
 				"Cannot predict now", "Concentrate and ask again", "Don't count on it",
 				"My reply is no", "My sources say no", "Outlook not so good",
 				"Very doubtful"]
-random_number = randrange(0, 20)
+random_number = random.randint(0, 20)
 answer = answer_list([random_number])
 
 again = True
