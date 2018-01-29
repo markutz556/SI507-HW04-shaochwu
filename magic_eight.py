@@ -13,6 +13,7 @@ answer_list = ["It is certain","It is decidedly so", "Without a doubt",
 random_number = randrange(0, 20)
 answer = answer_list([random_number])
 =======
+again = True
 while again:
 	if question.endswith("?"):
 		print(answers_list[answers])
