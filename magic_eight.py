@@ -15,7 +15,7 @@ answer = answer_list([random_number])
 again = True
 while again:
 	if question.endswith("?"):
-		print(answers_list[answers])
+		print(answer)
 	elif question == "quit":
 		again = False
 	else:
