@@ -10,7 +10,7 @@ answer_list = ["It is certain","It is decidedly so", "Without a doubt",
 				"My reply is no", "My sources say no", "Outlook not so good",
 				"Very doubtful"]
 random_number = random.randint(0, 20)
-answer = answer_list([random_number])
+answer = answer_list[random_number]
 
 again = True
 while again:
