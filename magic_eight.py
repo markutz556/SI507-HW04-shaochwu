@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 question = str(input("What is your question?"))
-<<<<<<< HEAD
 
 import random
 answer_list = ["It is certain","It is decidedly so", "Without a doubt",
@@ -21,4 +20,3 @@ while again:
 		again = False
 	else:
 		print("I'm sorry, I can only answer questions.")
->>>>>>> check_question
