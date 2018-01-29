@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-question = str(input("What is your question?"))
 
 import random
 answer_list = ["It is certain","It is decidedly so", "Without a doubt",
@@ -14,6 +13,7 @@ answer = answer_list[random_number]
 
 again = True
 while again:
+	question = str(input("What is your question?"))
 	if question.endswith("?"):
 		print(answer)
 	elif question == "quit":
